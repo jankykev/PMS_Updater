@@ -6,15 +6,15 @@ DOWNLOADPATH="/tmp"
 LOGPATH="/tmp"
 LOGFILE="PMS_Updater.log"
 PMSPARENTPATH="/usr/local/share"
-PMSLIVEFOLDER="plexmediaserver-plexpass"
-PMSBAKFOLDER="plexmediaserver-plexpass.bak"
+PMSLIVEFOLDER="plexmediaserver"
+PMSBAKFOLDER="plexmediaserver.bak"
 CERTFILE="/usr/local/share/certs/ca-root-nss.crt"
 AUTOUPDATE=0
 FORCEUPDATE=0
 VERBOSE=0
 REMOVE=0
 LOGGING=1
-PLEXPASS=1
+PLEXPASS=0
 
 # Initialize CURRENTVER to the script max so if reading the current version fails
 # for some reason we don't blindly clobber things
